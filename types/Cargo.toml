@@ -1,0 +1,9 @@
+[package]
+name = "types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quic-rpc = { version = "0.6", features = ["macros"] }
+serde = { version = "1.0", features = ["derive"] }
+derive_more = "0.99"
